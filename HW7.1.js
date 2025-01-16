@@ -34,7 +34,7 @@ let word = ['Garn', 'Nadel', 'Knopf', 'Stoff', 'Kreide'];
 let longWord = word[0];
 for (let i = 1; i < word.length; i++) {
     if (word[i].length > longWord.length) {
-        longtWord = word[i];
+        longWord = word[i];
     }
 }
-console.log("Самое длинное слово:", longtWord);
+console.log("Самое длинное слово:", longWord);
